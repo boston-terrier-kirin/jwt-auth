@@ -15,6 +15,7 @@ mongoose.connect(
 
 app.use(morgan('combined'));
 app.use(express.json());
+
 router(app);
 
 const port = process.env.PORT || 3090;
